@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Negatif – Görünenin Ötesi Tasarım Yarışması</title>
@@ -112,7 +113,30 @@
             color: #333;
         }
         
-    </style>
+    /* --- SADECE BU KISIM YENİ --- */
+@media (max-width: 768px) {
+    h1 { 
+        font-size: 2.5rem !important; 
+        letter-spacing: 5px !important; 
+    }
+    header p { 
+        font-size: 1rem !important; 
+    }
+    .btn { 
+        display: block; 
+        margin: 10px 0; 
+    }
+    .color-table td, .color-table th { 
+        font-size: 0.75rem; 
+        padding: 8px 4px;
+    }
+    .swatch {
+        width: 18px;
+        height: 18px;
+    }
+}
+/* --- YENİ KODLARIN SONU --- */
+</style>
 </head>
 <body>
 
